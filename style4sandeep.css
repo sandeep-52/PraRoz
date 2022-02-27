@@ -208,3 +208,18 @@ transition: 00.4s ease;
     padding-bottom: 10px;
     text-align: center;
 }
+.icon-bar{
+    width: 100%; 
+  background-color: #555;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-bar i{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.icon-bar i:hover{
+    color: red;
+}
